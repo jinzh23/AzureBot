@@ -1,0 +1,73 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0071cf;
+}
+
+.mainHeader {
+  color: black;
+  font-size: 2rem;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 100px;
+}
+
+/* flex-end: everything move to right end of the screen */
+
+.navLink {
+  list-style: none;
+  background-color: white;
+  margin: 2px 5px;
+  padding: 8px 15px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  background-color: #396ee1;
+  color: white;
+}
+
+.content {
+  margin: 30px 100px;
+  width: 60%;
+  background-color: #0071cf;
+}
+
+.title {
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.image {
+  background-image: url("https://media.licdn.com/dms/image/C5622AQGTEsZuMOX5xg/feedshare-shrink_800/0/1661985821317?e=1685577600&v=beta&t=9jdQrCmm9OeCcKpzPcOUa9yVQ78teWccEAe4pgMMGZ0");
+  width: 70%;
+  height: 750px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 100px;
+}
+
+.logoImage {
+  background-image: url("https://www.turnersautogroup.co.nz/wp-content/uploads/2022/08/Turners-ARD-logo-1.png");
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
