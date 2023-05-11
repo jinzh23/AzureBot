@@ -6,7 +6,7 @@ const ContainerLeft = () => {
     <div>
       <main className={styles.content}>
         <div className={styles.logoImage}></div>
-        <h1 className={styles.title}>TURNERS CAR INSURANCE</h1>
+        <h1 className={styles.title}>WELCOME TO TURNERS CAR</h1>
         <p>
           Get Car Insurance from the car experts. It’s quick, easy and
           affordable.
@@ -14,8 +14,7 @@ const ContainerLeft = () => {
         <iframe
           width="350"
           height="430"
-          allow="microphone;"
-          src="https://console.dialogflow.com/api-client/demo/embedded/d4432dc1-eb26-4d44-b5d9-7dda2148aa6d"
+          src="https://webchat.botframework.com/embed/TurnerBot-bot?s=4ZRtGmMUzq4.ZfD4d5ebBt8p9JSM_0Grnb-y4gAFeEcapcc4AmF5MgQ"
         ></iframe>
         <br />
         <a href="http://facebook.com">

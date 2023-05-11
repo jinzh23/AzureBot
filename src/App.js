@@ -8,7 +8,6 @@ import styles from "./components/ChatbotTurners.module.css";
 const App = () => {
   return (
     <div>
-      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
       <Header />
       <section className={styles.home}>
         <ContainerLeft />
